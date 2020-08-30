@@ -1,0 +1,19 @@
+{
+  "name": "full-stack-web-development",
+  "version": "1.0.0",
+  "description": "Primer proyecto NJS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scotturbina/Full-Stack-Web-Development.git"
+  },
+  "author": "Kevin Scott Urbina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Scotturbina/Full-Stack-Web-Development/issues"
+  },
+  "homepage": "https://github.com/Scotturbina/Full-Stack-Web-Development#readme"
+}
