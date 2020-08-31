@@ -4,6 +4,7 @@
   "description": "Primer proyecto NJS",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Scotturbina/Full-Stack-Web-Development/issues"
   },
-  "homepage": "https://github.com/Scotturbina/Full-Stack-Web-Development#readme"
+  "homepage": "https://github.com/Scotturbina/Full-Stack-Web-Development#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
