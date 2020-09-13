@@ -80,6 +80,14 @@
               <img class="d-block w-100" src="images/ibiza.jpg" alt="Tercer slide">
             </div>
           </div>
+          <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+          </a>
         </div>
 
       </div>
@@ -213,6 +221,9 @@
       $(function() {
         $("[data-toggle='tooltip']").tooltip();
         $("[data-toggle='popover']").popover();
+        $('.carousel').carousel({
+          interval : 2000
+        });
       });
     </script>
   </body>
