@@ -123,7 +123,7 @@
             <h6 class="card-subtitle text-muted">Peru</h6>
             <img class="card-img-top" alt="Responsive image" src="images/hotel.jpg">
             <p class="card-text">Hotel ubicado en Lima, con una de las mejores experiencias de Peru</p>
-            <button type="button" class=" btn btn-outline-sucess" data-toggle="modal" data-target="#contacto">Contacto</button>
+            <button type="button" class=" btn btn-outline-sucess" data-toggle="modal" data-target="#contacto" id="contactoBtn">Contacto</button>
           </div>
           <button type="button" class="btn btn-reserva">
             <span class="oi oi-plus"></span>Reservar</button>
@@ -223,6 +223,14 @@
         $("[data-toggle='popover']").popover();
         $('.carousel').carousel({
           interval : 2000
+        });
+        
+        $('#contacto').on('show.bs.modal', function(e){
+          console.log('el modal contacto se esta mostrando');
+          $('#contactoBtn').removeClass('btn-outline-sucess');
+          $('#contactoBtn').removeClass('btn-primary');
+          $('#contactoBtn').prop('disabled', true);
+
         });
       });
     </script>
